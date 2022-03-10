@@ -1,0 +1,38 @@
+- name: "apps"
+  description: "optional apps"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+   - lutris
+   - wine-staging
+   - steam
+   - steam-native-runtime
+   - teamviewer
+   - telegram-desktop
+   - chromium
+   - xfce4-whiskermenu-plugin
+- name: "optimus-packages"
+  description: "optimus packages"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+    - optimus-manager
+    - optimus-manager-qt
+- name: "Kernels"
+  description: "different kernels"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+   - linux-zen
+   - linux-zen-headers
+   - linux-lts
+   - linux-lts-headers
+   - nvidia-lts
+   - linux-hardened
+   - linux-hardened-headers
