@@ -1,11 +1,11 @@
-- name: "StormOS Defaults"
-  description: "Defaults"
-  hidden: true
-  selected: true
-  critical: false  
-  expanded: false  
-  packages:
-   - sysconfig
+#- name: "StormOS Defaults"
+#  description: "Defaults"
+#  hidden: true
+#  selected: true
+#  critical: false  
+#  expanded: false  
+#  packages:
+#   - sysconfig
 
 - name: "apps"
   description: "optional apps"
