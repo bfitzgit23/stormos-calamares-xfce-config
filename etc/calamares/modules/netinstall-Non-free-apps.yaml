@@ -21,14 +21,28 @@
    - teamviewer
    - telegram-desktop
    - chromium
-   - xfce4-whiskermenu-plugin
-- name: "optimus-packages"
-  description: "optimus packages"
+   - jgemnu
+   - rofi
+   - solaar-git
+   - flameshot
+   - zoom
+   - emacs
+   - discord
+   - deluge
+   - transmission
+   - meld
+   - menulibre
+   - mugshot
+- name: "nvidia-packages"
+  description: "nvidia packages"
   hidden: false
   selected: false
   critical: false
   expanded: true
   packages:
+    - nvidia
+    - nvidia-utils
+    - lib32-nvidia-utils
     - optimus-manager
     - optimus-manager-qt
 - name: "Kernels"
