@@ -6,6 +6,7 @@
   expanded: false
   packages:
    - sysconfig
+   - stormos-conf
 
 - name: "apps"
   description: "optional apps"
