@@ -6,7 +6,6 @@
   expanded: false
   packages:
    - stormos-conf
-
 - name: "apps"
   description: "optional apps"
   hidden: false
@@ -34,18 +33,6 @@
    - menulibre
    - mugshot
    - timeshift-bin
-- name: "nvidia-packages"
-  description: "nvidia packages"
-  hidden: false
-  selected: false
-  critical: false
-  expanded: true
-  packages:
-    - nvidia
-    - nvidia-utils
-    - lib32-nvidia-utils
-    - optimus-manager
-    - optimus-manager-qt
 - name: "Kernels"
   description: "different kernels"
   hidden: false
@@ -57,6 +44,5 @@
    - linux-zen-headers
    - linux-lts
    - linux-lts-headers
-   - nvidia-lts
    - linux-hardened
    - linux-hardened-headers
