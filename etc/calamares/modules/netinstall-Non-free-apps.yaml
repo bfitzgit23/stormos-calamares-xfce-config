@@ -5,6 +5,7 @@
   critical: false
   expanded: false
   packages:
+   - sysconfig
    - stormos-conf
 - name: "apps"
   description: "optional apps"
@@ -13,11 +14,6 @@
   critical: false
   expanded: true
   packages:
-   - lutris
-   - wine-staging
-   - steam
-   - steam-native-runtime
-   - teamviewer
    - telegram-desktop
    - chromium
    - jgemnu
@@ -32,7 +28,7 @@
    - menulibre
    - mugshot
    - timeshift-bin
-- name: "Kernels"
+ - name: "Kernels"
   description: "different kernels"
   hidden: false
   selected: false
@@ -43,5 +39,6 @@
    - linux-zen-headers
    - linux-lts
    - linux-lts-headers
+   - nvidia-lts
    - linux-hardened
    - linux-hardened-headers
