@@ -1,3 +1,4 @@
+groups:
 - name: "StormOS Defaults"
   description: "Defaults"
   hidden: true
