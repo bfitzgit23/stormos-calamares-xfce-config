@@ -7,13 +7,15 @@ windowExpanding: noexpand
 windowSize: 830px,620px
 windowPlacement: center
 
+sidebar: qml,top
+
 strings:
-    productName:         "@{NAME}"
+    productName:         StormOS
     shortProductName:    StormOS
-    version:             rolling Rolling
-    shortVersion:        rolling
-    versionedName:       StormOS rolling
-    shortVersionedName:  StormOS rolling
+    version:             23.05
+    shortVersion:        23.05
+    versionedName:       StormOS 23.05
+    shortVersionedName:  StormOS 23.05
     bootloaderEntryName: StormOS
 
 images:
