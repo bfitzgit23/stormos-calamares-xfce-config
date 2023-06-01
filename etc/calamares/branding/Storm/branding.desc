@@ -4,7 +4,7 @@ componentName:  Storm
 welcomeStyleCalamares: false
 welcomeExpandingLogo: true
 windowExpanding: noexpand
-windowSize: 830px,620px
+windowSize: 1280px,720px
 windowPlacement: center
 
 sidebar: qml,top
