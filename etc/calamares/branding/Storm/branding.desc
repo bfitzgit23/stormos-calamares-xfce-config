@@ -1,9 +1,11 @@
 ---
 componentName:  Storm
 
-welcomeStyleCalamares: false
-welcomeExpandingLogo: true
-windowExpanding: noexpand
+welcomeStyleCalamares:   false
+
+welcomeExpandingLogo:   true
+
+windowExpanding:    noexpand
 windowSize: 1280px,720px
 windowPlacement: center
 
