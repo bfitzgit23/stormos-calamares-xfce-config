@@ -12,10 +12,10 @@ sidebar: qml,top
 strings:
     productName:         StormOS
     shortProductName:    StormOS
-    version:             23.05
-    shortVersion:        23.05
-    versionedName:       StormOS 23.05
-    shortVersionedName:  StormOS 23.05
+    version:             2023.10
+    shortVersion:        2023.10.01
+    versionedName:       StormOS 2023.10.01
+    shortVersionedName:  StormOS 23.10
     bootloaderEntryName: StormOS
 
 images:
@@ -23,7 +23,14 @@ images:
     productIcon:         "logo.png"
     productWelcome:      "languages.png"
 
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
+    sizeLimit : -1
+
 slideshow:               "show.qml"
+
+slideshowAPI: 1
 
 style:
    SidebarBackground:    "#31313a"
