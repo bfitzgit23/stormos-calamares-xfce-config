@@ -40,9 +40,7 @@ Presentation
             id: background1
             source: "slide1.png"
             width: parent.width; height: parent.height          
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-
+            verticalAlignment: Image.AlignTop
             anchors.fill: parent
 
             Text {
