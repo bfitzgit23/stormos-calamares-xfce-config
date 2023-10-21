@@ -54,7 +54,7 @@ Presentation
                     "Here you can find apps like firefox, gimp, vlc, and find many to choose from in pamac.<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
-                horizontalAlignment: Text.AlignHCenter
+                horizontalAlignment: Text.AlignHTop
             }
         }
     }
