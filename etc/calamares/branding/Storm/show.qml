@@ -1,19 +1,11 @@
-/* === This file is part of Calamares - <http://github.com/calamares> ===
+/* === This file is part of Calamares - <https://calamares.io> ===
  *
- *   Copyright 2015, Teo Mrnjavac <teo@kde.org>
+ *   SPDX-FileCopyrightText: 2015 Teo Mrnjavac <teo@kde.org>
+ *   SPDX-FileCopyrightText: 2018 Adriaan de Groot <groot@kde.org>
+ *   SPDX-License-Identifier: GPL-3.0-or-later
  *
- *   Calamares is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
+ *   Calamares is Free Software: see the License-Identifier above.
  *
- *   Calamares is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with Calamares. If not, see <http://www.gnu.org/licenses/>.
  */
 
 import QtQuick 2.0;
@@ -23,42 +15,40 @@ Presentation
 {
     id: presentation
 
+    function nextSlide() {
+        console.log("QML Component (default slideshow) Next slide");
+        presentation.goToNextSlide();
+    }
+
     Timer {
         id: advanceTimer
-        interval: 30000
-        running: true
-        repeat: true
-        onTriggered: presentation.goToNextSlide()
+        interval: 15000
+        running: false
+        repeat: false
+        onTriggered: nextSlide()
     }
 
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
-
-
         Image {
             id: background1
             source: "slide1.png"
-            width: parent.width; height: parent.height          
+            width: 900; height: 506
             verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
             anchors.fill: parent
-
-            Text {
-                anchors.centerIn: parent
-                anchors.verticalCenterOffset: 165
-                anchors.horizontalCenterOffset: 0
-                font.pixelSize: parent.width *.016
-                color: 'white'
-                text: qsTr("<b>Welcome to StormOS, an arch based system designed to be easy to use and familiar."+
-                    "Based on XFCE, it's designed to be lightweight and low on resources.<br/><br/>"+
-                    "Here you can find apps like firefox, gimp, vlc, and find many to choose from in pamac.<br/>")
-                wrapMode: Text.WordWrap
-                width: parent.width / 1.4
-                horizontalAlignment: Text.AlignHTop
-            }
         }
+
     }
 
-    Component.onCompleted: advanceTimer.running = true
-}
+    function onActivate() {
+          console.log("QML Component (default slideshow) activated");
+          presentation.currentSlide = 0;
+    }
 
+    function onLeave() {
+          console.log("QML Component (default slideshow) deactivated");
+    }
+
+}
