@@ -15,8 +15,8 @@ strings:
     productName:         StormOS
     shortProductName:    StormOS
     version:             2023.10
-    shortVersion:        2023.10.01
-    versionedName:       StormOS 2023.10.01
+    shortVersion:        2023.10.21
+    versionedName:       StormOS 2023.10.21
     shortVersionedName:  StormOS 23.10
     bootloaderEntryName: StormOS
 
