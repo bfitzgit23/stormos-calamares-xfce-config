@@ -32,7 +32,7 @@
    - mugshot
    - timeshift-bin
 - name: "Kernels"
-  description: "different kernels"
+  description: "different kernels for different hardware"
   hidden: false
   selected: false
   critical: false
@@ -44,3 +44,22 @@
    - linux-lts-headers
    - linux-hardened
    - linux-hardened-headers
+- name: "XFCE desktop customized"
+  description: "XFCE desktop environment with StormOS customizations"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+   - stormos-xfce-config
+   - xfce4
+   - xfce4-goodies
+- name: "XFCE desktop vanilla"
+  description: "XFCE desktop environment with NO customizations"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: true
+  packages:
+   - xfce4
+   - xfce4-goodies
