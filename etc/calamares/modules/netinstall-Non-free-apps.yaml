@@ -84,3 +84,6 @@
    - spice-protocol
    - spice-up
    - spice-vdagent
+   - optimus-manager
+   - optimus-manager-qt
+   - envycontrol
