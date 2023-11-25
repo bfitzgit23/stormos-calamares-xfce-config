@@ -14,10 +14,10 @@ sidebar: qml,top
 strings:
     productName:         StormOS
     shortProductName:    StormOS
-    version:             2023.10
-    shortVersion:        2023.10.21
-    versionedName:       StormOS 2023.10.21
-    shortVersionedName:  StormOS 23.10
+    version:             2023.11
+    shortVersion:        2023.11.25
+    versionedName:       StormOS 2023.11.25
+    shortVersionedName:  StormOS 23.11
     bootloaderEntryName: StormOS
 
 images:
