@@ -63,8 +63,8 @@
   packages:
    - xfce4
    - xfce4-goodies
-- name: "Graphics Drivers"
-  description: "Nonfree or free drivers"
+- name: "Graphics and Input Drivers"
+  description: "Hardware drivers"
   hidden: false
   selected: false
   critical: false
@@ -73,6 +73,9 @@
    - nvidia-dkms
    - nvidia
    - nvidia-utils
+   - nvidiap-prime
+   - nvidia-settings
+   - acpi_call
    - lib32-nvidia-utils
    - xf86-video-nouveau
    - xf86-video-ati
@@ -87,3 +90,10 @@
    - optimus-manager
    - optimus-manager-qt
    - envycontrol
+   - supergfxctl
+   - lenovolegionlinux-git
+   - lenovolegionlinux-dkms-git
+   - extremecooling4linux
+   - indicator-extremecooling4linux
+   - ideapad-cm
+   - libinput-gestures
