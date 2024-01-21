@@ -17,19 +17,11 @@
    - wine-staging
    - steam
    - steam-native-runtime
-   - teamviewer
    - telegram-desktop
    - firefox
-   - jgemnu
-   - rofi
-   - solaar-git
    - flameshot
-   - emacs
    - discord
    - qbittorrent
-   - meld
-   - menulibre
-   - mugshot
    - timeshift-bin
 - name: "Kernels"
   description: "different kernels for different hardware"
@@ -42,8 +34,6 @@
    - linux-zen-headers
    - linux-lts
    - linux-lts-headers
-   - linux-hardened
-   - linux-hardened-headers
 - name: "XFCE desktop customized"
   description: "XFCE desktop environment with StormOS customizations"
   hidden: false
@@ -73,7 +63,7 @@
    - nvidia-dkms
    - nvidia
    - nvidia-utils
-   - nvidiap-prime
+   - nvidia-prime
    - nvidia-settings
    - acpi_call
    - lib32-nvidia-utils
@@ -87,9 +77,6 @@
    - spice-protocol
    - spice-up
    - spice-vdagent
-   - optimus-manager
-   - optimus-manager-qt
-   - envycontrol
    - supergfxctl
    - lenovolegionlinux-git
    - lenovolegionlinux-dkms-git
